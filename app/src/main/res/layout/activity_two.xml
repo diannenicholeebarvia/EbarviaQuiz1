@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.ebarvia.ebarviaquiz1.ActivityTwo">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="BACHELOR OF SCIENCE IN COMPUTER SCIENCE"
+            android:layout_centerHorizontal="true" />
+
+         <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Level 1 accredited by the Philippine Accrediting Association of Schools, Colleges, and Universities"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentStart="true"
+             android:layout_marginTop="75dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Students under the BS Computer Science program are highly trained for software and system development. The program's main focus is to expose the students to different approaches and styles in developing programs whether they are procedural or the object oriented type of system approach."
+            android:layout_marginTop="82dp"
+            android:layout_alignTop="@+id/textView1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:onClick="callHome"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/btnITP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IT Program"
+        android:onClick="callIT"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />"
+        />
+
+    <Button
+        android:id="@+id/btnISP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IS Program"
+        android:onClick="callIS"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="141dp"
+        android:text="TextView" />
+
+
+</RelativeLayout>
